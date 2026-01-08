@@ -1,7 +1,22 @@
 
+App Setup
+
+compser update
+
 DB Configation
 
-Migration : php artisan migrate 
+Add .env file to the App
+Update below database setting.
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=blog_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+Run Migration
+
+php artisan migrate 
 
 Created default admin user
 Email : admin@example
